@@ -9,3 +9,5 @@
 
 ### W11: soal 5
 ![11-25-2024 (09-36-33)](https://github.com/user-attachments/assets/79c03fa2-24b7-4d78-818f-11a32c807a84)
+### W11: soal 6
+![Uploading 11-25-2024 (09-44-26).gif…]()
