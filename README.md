@@ -13,5 +13,8 @@
 ![11-25-2024 (09-44-26)](https://github.com/user-attachments/assets/9b57a669-92c8-4292-b965-3c9322e32907)
 
 
-### W11: soal7 
+### W11: soal 7 
 ![11-25-2024 (09-54-49)](https://github.com/user-attachments/assets/b8b3e7ce-dbc3-4a79-8645-ccedb585f370)
+
+### W11: soal 9
+![11-25-2024 (10-07-15)](https://github.com/user-attachments/assets/083fe7f7-b8ed-4856-9490-7755b88a37bd)
