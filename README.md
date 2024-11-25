@@ -28,3 +28,5 @@
 ### W11: soal 13
 ![11-25-2024 (11-18-39)](https://github.com/user-attachments/assets/f9a2e2f3-14f8-4404-a3fa-20d553da02f8)
 
+### W11: soal 14
+![11-25-2024 (11-25-27)](https://github.com/user-attachments/assets/720c1fe3-285d-4a80-9185-6b066062140a)
