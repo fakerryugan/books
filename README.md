@@ -30,3 +30,6 @@
 
 ### W11: soal 14
 ![11-25-2024 (11-25-27)](https://github.com/user-attachments/assets/720c1fe3-285d-4a80-9185-6b066062140a)
+### W11: soal 15
+![Screenshot 2024-11-25 113840](https://github.com/user-attachments/assets/f9b0826a-1688-43db-a82e-098b0a7b8e10)
+
