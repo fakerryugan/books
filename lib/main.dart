@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
+import 'package:async/async.dart';
 import 'package:http/http.dart' as http;
 
 void main() {
@@ -32,6 +33,18 @@ class FuturePage extends StatefulWidget {
 
 class _FuturePageState extends State<FuturePage> {
   String result = "";
+  late Completer completer;
+
+  Future getNumber() {
+    completer = Completer<int>();
+    calculate();
+    return completer.future;
+  }
+
+  Future calculate() async {
+    await Future.delayed(const Duration(seconds: 5));
+    completer.complete(42);
+  }
 
   Future<Response> getData() async {
     const authority = 'www.googleapis.com';
@@ -55,13 +68,13 @@ class _FuturePageState extends State<FuturePage> {
     return 3;
   }
 
-  Future count() async {
+  Future Count() async {
     int total = 0;
     total = await returnOneAsync();
-    total += await returnOneAsync();
-    total += await returnOneAsync();
+    total += await returnTwoAsync();
+    total += await returnThreeAsync();
     setState(() {
-      result.toString();
+      result = total.toString();
     });
   }
 
@@ -79,7 +92,12 @@ class _FuturePageState extends State<FuturePage> {
             ElevatedButton(
               child: const Text('G0!'),
               onPressed: () {
-                count();
+                getNumber().then((value) {
+                  setState(() {
+                    result = value.toString();
+                  });
+                });
+                // Count();
                 //   setState(() {});
                 //   getData().then((value) {
                 //     result = value.body.toString().substring(0, 450);
