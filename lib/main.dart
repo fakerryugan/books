@@ -40,6 +40,31 @@ class _FuturePageState extends State<FuturePage> {
     return http.get(url);
   }
 
+  Future<int> returnOneAsync() async {
+    await Future.delayed(const Duration(seconds: 3));
+    return 1;
+  }
+
+  Future<int> returnTwoAsync() async {
+    await Future.delayed(const Duration(seconds: 3));
+    return 2;
+  }
+
+  Future<int> returnThreeAsync() async {
+    await Future.delayed(const Duration(seconds: 3));
+    return 3;
+  }
+
+  Future count() async {
+    int total = 0;
+    total = await returnOneAsync();
+    total += await returnOneAsync();
+    total += await returnOneAsync();
+    setState(() {
+      result.toString();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -54,14 +79,15 @@ class _FuturePageState extends State<FuturePage> {
             ElevatedButton(
               child: const Text('G0!'),
               onPressed: () {
-                setState(() {});
-                getData().then((value) {
-                  result = value.body.toString().substring(0, 450);
-                  setState(() {});
-                }).catchError((_) {
-                  result = 'an error accurred';
-                  setState(() {});
-                });
+                count();
+                //   setState(() {});
+                //   getData().then((value) {
+                //     result = value.body.toString().substring(0, 450);
+                //     setState(() {});
+                //   }).catchError((_) {
+                //     result = 'an error accurred';
+                //     setState(() {});
+                //   });
               },
             ),
             const Spacer(),
