@@ -25,3 +25,6 @@
 ### W11:soal 12
 ![11-25-2024 (10-44-16)](https://github.com/user-attachments/assets/d25ff917-61ce-4531-abdf-f212d6e4459e)
 
+### W11: soal 13
+![11-25-2024 (11-18-39)](https://github.com/user-attachments/assets/f9a2e2f3-14f8-4404-a3fa-20d553da02f8)
+
