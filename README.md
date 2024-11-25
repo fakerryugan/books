@@ -32,4 +32,6 @@
 ![11-25-2024 (11-25-27)](https://github.com/user-attachments/assets/720c1fe3-285d-4a80-9185-6b066062140a)
 ### W11: soal 15
 ![Screenshot 2024-11-25 113840](https://github.com/user-attachments/assets/f9b0826a-1688-43db-a82e-098b0a7b8e10)
+### W11: soal 16
+![11-25-2024 (14-10-03)](https://github.com/user-attachments/assets/267ff2c3-7a7b-4f07-a42b-6a34f74b3b0e)
 
