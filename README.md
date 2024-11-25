@@ -18,3 +18,10 @@
 
 ### W11: soal 9
 ![11-25-2024 (10-07-15)](https://github.com/user-attachments/assets/083fe7f7-b8ed-4856-9490-7755b88a37bd)
+
+### W11:soal 11
+![Screenshot 2024-11-25 103300](https://github.com/user-attachments/assets/d7b78063-f98f-423e-95f1-7d8375f2b8a1)
+
+### W11:soal 12
+![11-25-2024 (10-44-16)](https://github.com/user-attachments/assets/d25ff917-61ce-4531-abdf-f212d6e4459e)
+
